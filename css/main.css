@@ -62,7 +62,7 @@ nav .nave-rigth-section img{
 }
 
 main{
-    margin-top: 150px;
+    margin-top: 85px;
     text-align: center;
 }
 
@@ -70,7 +70,7 @@ main .main-logo{
     width: 100%;
     /*Divide el espacio entre 2 para centrar*/
     margin: 0 auto;
-    margin-bottom: 35px;
+    margin-bottom: 30px;
 }
 
 main .main-logo img{
@@ -79,27 +79,70 @@ main .main-logo img{
 }
 
 main .main-input{
-    width: 530px;
+    width: 500px;
     margin: 0 auto;
     margin-bottom: 35px;
 }
 
 main .main-input-container{
-  width: 525px;
-  border-radius: 10px;
-  border: 1px solid #e2e4e7; 
+  width: 490px;
+  height: 44px;
+  border-radius: 100px;
+  border: 1px solid #e2e4e7;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center; 
 }
 
 main .main-input-container input{
-    width: 450px;
+    width: 400px;
     height: 40px;
     border: none;
     outline: none;
+}
+
+main .main-input-container:hover{
+    box-shadow: 0 1px 6px 0 #20212447;
+    border-color: #dfe1e500;
+}
+
+main .main-input-container .search-icon{
+    margin-top: 5px;
+    margin-right: 5px;
+    width: 25px;
+    height: 20px;
+    opacity: .4;
+}
+main .main-input-container .micro-icon {
+    margin-top: 5px;
+    margin-right:5px;
+    width: 25px;
+    height: 24px;
 }
 
 main .main-buttons{
     display: flex;
     justify-content: space-around;
     margin: 0 auto;
-    width: 350px;
+    width: 330px;
 }
+
+main .main-buttons button{
+    margin: 11px 4px;
+    padding: 0 10px;
+    border-radius: 5px;
+    border: none;
+    width: 150px;
+    height: 34px;
+    background-color: #f1f1f1;
+    color:#5c677d;
+}
+
+
+main .main-buttons button:hover{
+    border: 1px solid #c6c6c6;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    background-color: #f8f8f8;
+    color: black;
+}
+
