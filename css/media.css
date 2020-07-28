@@ -1,0 +1,14 @@
+@media screen and (max-width:480px){
+    main .main-input{
+        width: 390px;
+    }
+    
+    main .main-input-container{
+        width: 390px;
+    }
+    
+    footer .footer-rigth,
+    footer .city-conent{
+        display: none;
+    }
+}
